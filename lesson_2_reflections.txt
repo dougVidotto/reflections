@@ -1,0 +1,10 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A: When I initialize a repository, a new directory is created. This directory is .git
+   I need to do this so Git can control what is going to be commited or not 
+   inside the repository.
+
+ How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+ A: The function of the staging area is to differentiate what is going to be commited and what is not (the latter
+    will be just in the working directory).
