@@ -8,3 +8,8 @@ A: When I initialize a repository, a new directory is created. This directory is
 
  A: The function of the staging area is to differentiate what is going to be commited and what is not (the latter
     will be just in the working directory).
+
+    How can you use the staging area to make sure you have one commit per logical change?
+
+ A:	The staging area is a pre-commit area. You can use it to make sure which files are going to be commited and what are the changes
+    you are doing before commiting (you can check this through git diff).
