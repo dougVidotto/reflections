@@ -4,28 +4,33 @@ A: When I initialize a repository, a new directory is created. This directory is
    I need to do this so Git can control what is going to be commited or not 
    inside the repository.
 
- How is the staging area different from the working directory and the repository? What value do you think it offers?
+ 	How is the staging area different from the working directory and the repository? What value do you think it offers?
 
- A: The function of the staging area is to differentiate what is going to be commited and what is not (the latter
-    will be just in the working directory).
+ A: The function of the staging area is to differentiate what is going to be commited and what is not (	  the latter will be just in the working directory).
 
     How can you use the staging area to make sure you have one commit per logical change?
 
- A:	The staging area is a pre-commit area. You can use it to make sure which files are going to be commited and what are the changes
-    you are doing before commiting (you can check this through git diff).
+ A:	The staging area is a pre-commit area. You can use it to make sure which files are going to be 	commited and what are the changes
+    you are doing before commiting (you can check this using git diff).
 
     What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
- A: Branches are helpful when I want to different versions of my code running at the same time. For example, maybe I want a branch
+ A: Branches are helpful when I want different versions of my code running at the same time. For example, maybe I want a branch
  	that has my production code, one branch containing the version that is being tested before going to production and finally 
  	a version that is being written by the developers.
 
  	How do the diagrams help you visualize the branch structure?
 
  A: Since a project can get huge, with lots of branches, commits, it's easy to get lost with everything that's happening
- 	with the code. So diagrams can help you track how the branches and comitts are structured.
+ 	with the code. So diagrams can help you to track how the branches and comitts are structured.
 
  	What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
  A:	The result of merging two branches together is joining two or more projects (or features) inside one branch, therefore having 
  	one version with different characteristics.
+
+ 	What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+ A: When you manually merge you can avoid conflits or other mistakes that a machine can do, but it can 
+    take you a long time depending on the size of the content you have to merge. Automatic merge is good because it's done right way by git. But sometimes a conflict may happen, and then to resolve
+    these conflicts an automatic merge can create bugs or other unpredictable problems.
