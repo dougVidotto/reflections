@@ -4,15 +4,13 @@ was introduced?
 A: Using diff helps to find bugs because you can see right away where a file
    was modified, meaning you don't have to scam the whole file looking for
    the mistake. So using diff can save you a lot of time and prevent
-   lots of bugs
+   lots of bugs.
 
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
 A: Having easy access to the entire history of a file is good because if you don't like
-   what is in your current version (because of a bug for example), you can return to
-   previous version quickly, so your users aren't damaged waiting for you to correct
-   the bug.    
+   what is in your current version (maybe you have a bug that will take a long time to solve for example), you can return to previous version quickly.
 
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
@@ -46,7 +44,3 @@ could break something?
  A: Using version control makes you more confident because if you break something
  	you can restore a previous version (that was working) very quickly. And because
  	you can do that, a programmer is not afraid of making changes into the code.
-
-Now that you have your workspace set up, what do you want to try using Git for?
-
-    Fill in your answer here
