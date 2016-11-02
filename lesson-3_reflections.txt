@@ -25,3 +25,8 @@ A: The benefit of having a copy of the last known state of the remote stored loc
    then when you get online again, you can push all the changes to the repository. If other changes
    were made in the repository while you were working, you can pull these changes, merge with your own, and then pull them
    again to the repository.
+
+   How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A: Without using Git or GitHub, probably my team would use another system like SVN or CVS. Now, if none of these are available, then 	things would be much more slower since every file would be manually merged. Another issue is that people would have to commit one
+   after the other, creating commit queue. I don't see any benefits in not using Git really.
