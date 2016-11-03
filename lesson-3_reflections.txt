@@ -30,3 +30,9 @@ A: The benefit of having a copy of the last known state of the remote stored loc
 
 A: Without using Git or GitHub, probably my team would use another system like SVN or CVS. Now, if none of these are available, then 	things would be much more slower since every file would be manually merged. Another issue is that people would have to commit one
    after the other, creating commit queue. I don't see any benefits in not using Git really.
+
+   When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+  A: It's better to do changes in a separate branch when you want to try new things and you are not sure (or you don't want to)
+  	 these changes will be part of the main project. Another reason to create a different branch is to allow other people to review
+  	 your code in GitHub, for example before merging these changes into master branch.
